@@ -66,13 +66,93 @@ menu>li{
     margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    padding-right: 5em;
-}
-table,td,tr{
-    border: 1px solid black;
 
 }
+table,td,tr{
+    border: 0px solid black;
+
+}
+
 #blocco{
    margin-left: 10px;
    margin-right: 10px;
+}
+strong{
+    color: rgb(143, 44, 118);
+    font-weight: bold;
+}
+ul>li{
+    list-style: decimal;
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+.tabella{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+table>thead{
+    text-align: center;
+    font-weight: bolder;
+}
+.anno{
+    background-color: rgb(69, 69, 245);
+   
+}
+.secondp{
+    margin-top: 20px;
+}
+iframe{
+    border-radius: 5%;
+    align-items: center;
+    margin-left: 1.5em;
+    margin-bottom: 40px;
+}
+.secondtitle{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#iscrizione{
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+#iscrizione>button{
+    background-color: rgb(119, 119, 241);
+    border: 0px;
+    
+}
+.primasezione{
+    border: 1px solid gray;
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+.secondasezione{
+    border: 1px solid gray;
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+.terzasezione{
+    border: 1px solid gray;
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+footer{
+    box-sizing: border-box;
+    border: 2px solid black;
+    text-align: center;
+    margin: 2em;
+    background: rgb(2,0,36);
+    background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(9,77,121,1) 49%, rgba(0,212,255,1) 100%);
+}
+footer>h3{
+    color: white;
+    text-decoration: white;
+}
+footer>p{
+    color: white;
 }
