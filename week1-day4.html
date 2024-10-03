@@ -6,7 +6,7 @@
     <title>Epicode phone</title>
     <!--è il lnk per poter usare le icone del sito fontawesome-->
     <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./font-awesome.css" />
+
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
@@ -15,6 +15,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="font-awesome.css" />
     <link rel="stylesheet" href="week1-day4.css" />
   </head>
 
@@ -24,16 +25,21 @@
         <img id="logo" src="logo.svg" alt="logo Epicode" />
         <h1 id="title">Epicode - il blog dei developers</h1>
         <nav>
-          <li>HOME</li>
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-          />
-          <li>ARTICOLI</li>
-          <li>LAVORA CON NOI</li>
+          <li>
+            <i class="fas fa-arrow-right"></i>HOME<i
+              class="fas fa-arrow-left"
+            ></i>
+          </li>
+          <li>
+            <i class="fas fa-arrow-right"></i>ARTICOLI<i
+              class="fas fa-arrow-left"
+            ></i>
+          </li>
+          <li>
+            <i class="fas fa-arrow-right"></i>LAVORA CON NOI<i
+              class="fas fa-arrow-left"
+            ></i>
+          </li>
         </nav>
       </div>
     </header>
@@ -41,7 +47,12 @@
       <div id="blocco">
         <section>
           <h1 class="firsttitle">Come creare un template per i post</h1>
-          <p class="mariorossi">Di Mario Rossi - pubblicato il 25-10-2020</p>
+          <p class="mariorossi">
+            <i class="fas fa-pen-square" style="color: #ebebeb"></i> Di Mario
+            Rossi -
+            <i class="fas fa-clock" style="color: #d6d6d6"></i> pubblicato il
+            25-10-2020
+          </p>
           <p>
             La prima cosa da fare è suddividere in blocchi la pagina,
             identificando le <strong>parti comuni</strong> da applicare a tutte

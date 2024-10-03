@@ -1,4 +1,6 @@
+
 body{
+    
     background-image: url(sfondo.png);
   
     margin: auto;
@@ -13,6 +15,9 @@ header > div {
     background: rgb(2,0,36);
     background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(9,77,121,1) 49%, rgba(0,212,255,1) 100%);
 
+}
+header>div>nav>li{
+   list-style-type: none;
 }
 #title{
     color: white;
@@ -35,6 +40,7 @@ nav{
 #logo{
     width: 20em;
     height: 10em;
+    width: 100%;
 }
 main{
     margin: 2em;
@@ -72,6 +78,9 @@ table,td,tr{
     border: 0px solid black;
 
 }
+table>tbody{
+    border: 1px solid black
+}
 
 #blocco{
    margin-left: 10px;
@@ -102,6 +111,7 @@ table>thead{
     margin-top: 20px;
 }
 iframe{
+    width: 100%;
     border-radius: 5%;
     align-items: center;
     margin-left: 1.5em;
@@ -130,16 +140,21 @@ iframe{
     border: 1px solid gray;
     background-color: lightgray;
     margin-bottom: 15px;
+    
 }
 .secondasezione{
     border: 1px solid gray;
     background-color: lightgray;
     margin-bottom: 15px;
 }
+
 .terzasezione{
     border: 1px solid gray;
     background-color: lightgray;
     margin-bottom: 15px;
+}
+#correlati{
+
 }
 footer{
     box-sizing: border-box;
@@ -149,10 +164,14 @@ footer{
     background: rgb(2,0,36);
     background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(9,77,121,1) 49%, rgba(0,212,255,1) 100%);
 }
-footer>h3{
+footer>section>h3{
     color: white;
-    text-decoration: white;
+    
+    
 }
-footer>p{
+footer>section>p{
     color: white;
+}
+input{
+    border-bottom: 1px dashed black;
 }
